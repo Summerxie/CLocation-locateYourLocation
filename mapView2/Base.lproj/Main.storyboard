@@ -57,33 +57,36 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u2o-bB-68r">
-                                <rect key="frame" x="149" y="168" width="155" height="21"/>
+                                <rect key="frame" x="149" y="174" width="155" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oKu-3x-JQA">
-                                <rect key="frame" x="140" y="106" width="62" height="30"/>
-                                <state key="normal" title="物理编码"/>
+                                <rect key="frame" x="116" y="106" width="143" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="物理编码">
+                                    <color key="titleColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="btnClick:" destination="vN3-dM-8Q4" eventType="touchUpInside" id="8dU-fv-Kh6"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cDv-6T-TDg">
-                                <rect key="frame" x="149" y="206" width="155" height="21"/>
+                                <rect key="frame" x="149" y="212" width="155" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="cDv-6T-TDg" firstAttribute="leading" secondItem="rCu-gY-fgH" secondAttribute="trailing" constant="27" id="9WB-HO-4DB"/>
                             <constraint firstItem="u2o-bB-68r" firstAttribute="leading" secondItem="xWC-tb-4lJ" secondAttribute="trailing" constant="27" id="AVD-ha-PaO"/>
-                            <constraint firstItem="oKu-3x-JQA" firstAttribute="leading" secondItem="sLD-NA-uFd" secondAttribute="leadingMargin" constant="124" id="Bcc-1K-vb1"/>
+                            <constraint firstItem="oKu-3x-JQA" firstAttribute="leading" secondItem="sLD-NA-uFd" secondAttribute="leadingMargin" constant="100" id="Bcc-1K-vb1"/>
                             <constraint firstItem="l97-dV-hB6" firstAttribute="top" secondItem="eKE-ZD-ZXa" secondAttribute="bottom" constant="27" id="Hr1-XD-Ghh"/>
                             <constraint firstItem="oKu-3x-JQA" firstAttribute="top" secondItem="l97-dV-hB6" secondAttribute="bottom" constant="29" id="Lmm-wE-9gk"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="oKu-3x-JQA" secondAttribute="trailing" constant="157" id="LtJ-on-KsJ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="oKu-3x-JQA" secondAttribute="trailing" constant="100" id="LtJ-on-KsJ"/>
                             <constraint firstItem="xWC-tb-4lJ" firstAttribute="leading" secondItem="sLD-NA-uFd" secondAttribute="leadingMargin" constant="54" id="PSU-um-H9C"/>
                             <constraint firstItem="oxo-Qd-Uxm" firstAttribute="top" secondItem="eKE-ZD-ZXa" secondAttribute="bottom" constant="31" id="Psb-t1-kK6"/>
                             <constraint firstItem="cDv-6T-TDg" firstAttribute="top" secondItem="u2o-bB-68r" secondAttribute="bottom" constant="17" id="TL5-DA-0Jn"/>
@@ -152,20 +155,23 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="koe-fR-fB3">
-                                <rect key="frame" x="134" y="178" width="102" height="30"/>
-                                <state key="normal" title="反物理编码"/>
+                                <rect key="frame" x="116" y="178" width="143" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="反物理编码">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="btnClick:" destination="umN-cK-wQ1" eventType="touchUpInside" id="DAn-w6-jzq"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="北京" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Mb-ud-bVu">
-                                <rect key="frame" x="143" y="234" width="161" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <rect key="frame" x="143" y="249" width="161" height="31.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="地理位置：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dbM-7i-k47">
-                                <rect key="frame" x="42" y="234" width="93" height="21"/>
+                                <rect key="frame" x="42" y="246" width="93" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="93" id="kvX-ey-Wjm"/>
                                 </constraints>
@@ -174,7 +180,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.50196081400000003" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="koe-fR-fB3" firstAttribute="top" secondItem="Rms-fw-UME" secondAttribute="bottom" constant="32" id="36g-dT-Cmi"/>
                             <constraint firstItem="UzA-PV-SCB" firstAttribute="leading" secondItem="Jsf-bu-xrJ" secondAttribute="trailing" constant="6" id="FO7-AX-siw"/>
@@ -183,16 +189,16 @@
                             <constraint firstItem="B7H-2n-pWK" firstAttribute="leading" secondItem="odA-P5-VsA" secondAttribute="leadingMargin" constant="28" id="TPR-RO-AUk"/>
                             <constraint firstItem="5Mb-ud-bVu" firstAttribute="leading" secondItem="dbM-7i-k47" secondAttribute="trailing" constant="8" id="UOU-0S-fCS"/>
                             <constraint firstItem="Jsf-bu-xrJ" firstAttribute="leading" secondItem="odA-P5-VsA" secondAttribute="leadingMargin" constant="30" id="Y8J-B9-McR"/>
-                            <constraint firstItem="koe-fR-fB3" firstAttribute="leading" secondItem="odA-P5-VsA" secondAttribute="leadingMargin" constant="118" id="aah-SJ-VM6"/>
+                            <constraint firstItem="koe-fR-fB3" firstAttribute="leading" secondItem="odA-P5-VsA" secondAttribute="leadingMargin" constant="100" id="aah-SJ-VM6"/>
                             <constraint firstItem="Rms-fw-UME" firstAttribute="top" secondItem="UzA-PV-SCB" secondAttribute="bottom" constant="8" id="cf9-87-NkG"/>
                             <constraint firstItem="dbM-7i-k47" firstAttribute="leading" secondItem="odA-P5-VsA" secondAttribute="leadingMargin" constant="26" id="gLi-xL-T54"/>
                             <constraint firstItem="B7H-2n-pWK" firstAttribute="top" secondItem="Jsf-bu-xrJ" secondAttribute="bottom" constant="15" id="gMj-Lk-ZWl"/>
                             <constraint firstAttribute="trailingMargin" secondItem="UzA-PV-SCB" secondAttribute="trailing" constant="30" id="heI-1k-j3B"/>
-                            <constraint firstItem="dbM-7i-k47" firstAttribute="top" secondItem="Rms-fw-UME" secondAttribute="bottom" constant="88" id="kNb-Ht-ze5"/>
+                            <constraint firstItem="dbM-7i-k47" firstAttribute="top" secondItem="Rms-fw-UME" secondAttribute="bottom" constant="100" id="kNb-Ht-ze5"/>
                             <constraint firstItem="UzA-PV-SCB" firstAttribute="top" secondItem="Ycb-KI-HGy" secondAttribute="bottom" constant="58" id="mDh-hH-0WY"/>
                             <constraint firstItem="Jsf-bu-xrJ" firstAttribute="top" secondItem="Ycb-KI-HGy" secondAttribute="bottom" constant="62" id="rZ0-aI-qJy"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="koe-fR-fB3" secondAttribute="trailing" constant="123" id="tvE-v7-pH8"/>
-                            <constraint firstItem="5Mb-ud-bVu" firstAttribute="top" secondItem="koe-fR-fB3" secondAttribute="bottom" constant="26" id="wLQ-XF-lv0"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="koe-fR-fB3" secondAttribute="trailing" constant="100" id="tvE-v7-pH8"/>
+                            <constraint firstItem="5Mb-ud-bVu" firstAttribute="top" secondItem="koe-fR-fB3" secondAttribute="bottom" constant="35" id="wLQ-XF-lv0"/>
                             <constraint firstItem="Rms-fw-UME" firstAttribute="leading" secondItem="B7H-2n-pWK" secondAttribute="trailing" constant="8" id="ydS-PV-WcR"/>
                         </constraints>
                     </view>
